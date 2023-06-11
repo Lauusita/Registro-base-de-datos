@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="primero.php" method="post">
+        <h1>Hello world</h1>
+        <div>
+            <div class="col">
+                <div class="row">
+                    nombre
+                    <input type="text" name="nombre">
+                    apellido
+                    <input type="text" name="apellido">
+                </div>
+                <br>
+                <div class="row">
+                    Tipo de documento
+                    <select name="documento" id="documento">
+                        <option value="Cédula de ciudadanía">Cédula de ciudadanía</option>
+                        <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+                        <option value="Pasaporte">Pasaporte</option>
+                    </select> Número <input type="number" name="numero" max="9999999999">
+                </div>
+                <br>
+                <div class="row">
+                    Fecha de nacimiento
+                    <br>
+                    Día <input type="number" max="31" min="1" name="dia"> Mes <input type="number" name="mes"  max="12" min="1"> Año <input type="number" name="ano"  max="2023" min="1">
+                </div>
+                <br>
+                <div class="row">
+                    Tipo de sangre
+                    <br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sangre" id="flexRadioDefault2" value="A" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          A
+                        </label> 
+                        <input class="form-check-input" type="radio" name="sangre" id="flexRadioDefault2" value="O">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          O
+                        </label> <input class="form-check-input" type="radio" name="sangre" id="flexRadioDefault2" value="B" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          B
+                        </label>
+                        <input class="form-check-input" type="radio" name="sangre" id="flexRadioDefault2" value="AB" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          AB
+                        </label> 
+                    </div>
+                </div>
+                <div class="row">
+                    <input class="form-check-input" type="radio" name="signo" id="flexRadioDefault2" value="+" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        +
+                    </label> 
+                    <input class="form-check-input" type="radio" name="signo" id="flexRadioDefault2" value="-">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        -
+                    </label> 
+                </div>
+                <br>
+                <div class="row">
+                    Sexo
+                    <input class="form-check-input" type="radio" name="sexo" id="flexRadioDefault2" value="M" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        M
+                    </label> 
+                    <input class="form-check-input" type="radio" name="sexo" id="flexRadioDefault2" value="F">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        F
+                    </label> 
+                </div>
+                <br>
+                <div class="row">
+                    Dirección
+                    <select name="dc" id="dc">
+                        <option value="cra">Cra</option>
+                        <option value="calle">Calle</option>
+                        <option value="avenida">Avenida</option>
+                    </select> <input type="number" name="numdc" > # <input type="number" name="num2dc"> - <input type="number" name="apt">
+                </div>
+                <br>
+                <div class="row">
+                    Ciudad
+                    <input type="text" name="ciudad">
+                </div>
+                <br>
+                <div class="row">
+                    Teléfono
+                    <input type="number" name="tel">
+                </div>
+                <br>
+                <div class="row">
+                    Correo
+                    <input type="text" name="correo">
+                </div>
+                <br> <!-- enviar -->
+                <button type="submit" name="enviar">enviar</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
