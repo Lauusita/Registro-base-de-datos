@@ -13,17 +13,17 @@ $tel = $_POST['tel'];
 $correo = $_POST['correo'];
 
 
-echo "<br><h2> El nombre es </h2>".$nombre;
-echo "<br><h2> El apellido es </h2>".$apellido;
-echo "<br><h2> El tipo de documento es </h2>".$documento;
-echo "<br><h2> El número de documento es </h2>".$numero;
-echo "<br><h2> La fecha de nacimiento es </h2>".$nacimiento;
-echo "<br><h2> El tipo de sangre es </h2>".$tsangre;
-echo "<br><h2> El sexo es </h2>".$sexo;
-echo "<br><h2> La dirección es </h2>".$direccion;
-echo "<br><h2> La ciudad es </h2>".$ciudad;
-echo "<br><h2> El teféfono es </h2>".$tel;
-echo "<br><h2> La correo es </h2>".$correo;
+// echo "<br><h2> El nombre es </h2>".$nombre;
+// echo "<br><h2> El apellido es </h2>".$apellido;
+// echo "<br><h2> El tipo de documento es </h2>".$documento;
+// echo "<br><h2> El número de documento es </h2>".$numero;
+// echo "<br><h2> La fecha de nacimiento es </h2>".$nacimiento;
+// echo "<br><h2> El tipo de sangre es </h2>".$tsangre;
+// echo "<br><h2> El sexo es </h2>".$sexo;
+// echo "<br><h2> La dirección es </h2>".$direccion;
+// echo "<br><h2> La ciudad es </h2>".$ciudad;
+// echo "<br><h2> El teféfono es </h2>".$tel;
+// echo "<br><h2> La correo es </h2>".$correo;
 
 
 
