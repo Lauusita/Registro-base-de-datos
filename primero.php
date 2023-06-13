@@ -1,16 +1,16 @@
 <?php
 
-// $nombre = $_POST['nombre'];
-// $apellido= $_POST['apellido'];
-// $documento= $_POST['documento'];
-// $numero= $_POST['numero'];
-// $nacimiento = $_POST['dia'].'/'.$_POST['mes'].'/'.$_POST['ano'];
-// $tsangre = $_POST['sangre'].$_POST['signo'];
-// $sexo = $_POST['sexo'];
-// $direccion = $_POST['dc'].$_POST['numdc'].'#'.$_POST['num2dc'].'-'.$_POST['apt'];
-// $ciudad = $_POST['ciudad'];
-// $tel = $_POST['tel'];
-// $correo = $_POST['correo'];
+$nombre = $_POST['nombre'];
+$apellido= $_POST['apellido'];
+$documento= $_POST['documento'];
+$numero= $_POST['numero'];
+$nacimiento = $_POST['dia'].'/'.$_POST['mes'].'/'.$_POST['ano'];
+$tsangre = $_POST['sangre'].$_POST['signo'];
+$sexo = $_POST['sexo'];
+$direccion = $_POST['dc'].$_POST['numdc'].'#'.$_POST['num2dc'].'-'.$_POST['apt'];
+$ciudad = $_POST['ciudad'];
+$tel = $_POST['tel'];
+$correo = $_POST['correo'];
 
 
 echo "<br><h2> El nombre es </h2>".$nombre;
